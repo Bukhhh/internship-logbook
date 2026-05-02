@@ -1,0 +1,1 @@
+<img src="{{ asset('mylogo.png') }}" alt="Company Logo" class="h-21 w-auto block mx-auto">
