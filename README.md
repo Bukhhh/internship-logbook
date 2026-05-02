@@ -1,10 +1,4 @@
-Cun, ini fail **README.md** yang profesional untuk projek logbook kau. Fail ni penting sebab bila orang (atau bakal majikan) tengok GitHub kau, ini benda pertama yang mereka baca.
 
-Aku dah masukkan sekali elemen teknikal macam **Random Forest** dan **RAG** yang kau tengah kaji tu supaya nampak gempak.
-
-Copy dan paste kod di bawah ke dalam fail bernama `README.md` di root folder projek kau:
-
-```markdown
 # 🦉 Internship Daily Logbook (SaaS)
 
 Satu platform pengurusan logbook internship yang moden, dibina khas untuk memudahkan pelajar merekod tugasan harian secara tersusun dengan antaramuka bertaraf profesional.
@@ -70,13 +64,4 @@ Satu platform pengurusan logbook internship yang moden, dibina khas untuk memuda
 *Final Year Computer Science Student at UiTM Tapah*  
 *Technical Intern at Hypepresso Insight Sdn Bhd*
 
----
-*Projek ini dibangunkan sebagai sebahagian daripada portfolio pembangunan aplikasi web moden.*
-```
 
-Dah siap! Lepas kau save, jangan lupa buat:
-1. `git add README.md`
-2. `git commit -m "Add professional README"`
-3. `git push origin main`
-
-Sekarang repo GitHub kau nampak macam senior dev punya repo! Ada apa-apa lagi kau nak aku tambah?
