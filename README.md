@@ -1,58 +1,82 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Cun, ini fail **README.md** yang profesional untuk projek logbook kau. Fail ni penting sebab bila orang (atau bakal majikan) tengok GitHub kau, ini benda pertama yang mereka baca.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aku dah masukkan sekali elemen teknikal macam **Random Forest** dan **RAG** yang kau tengah kaji tu supaya nampak gempak.
 
-## About Laravel
+Copy dan paste kod di bawah ke dalam fail bernama `README.md` di root folder projek kau:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+```markdown
+# 🦉 Internship Daily Logbook (SaaS)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Satu platform pengurusan logbook internship yang moden, dibina khas untuk memudahkan pelajar merekod tugasan harian secara tersusun dengan antaramuka bertaraf profesional.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## ✨ Ciri-Ciri Utama
+*   **Kanban Board UI**: Urus tugasan dengan fungsi *drag-and-drop* yang lancar (Ongoing, Completed, Stuck).
+*   **Official Table View**: Jana jadual logbook rasmi yang mengikut format universiti.
+*   **Smart Print System**: Fungsi cetakan pintar yang menyembunyikan status dalaman dan menunjukkan ruangan *Supervisor Remarks*.
+*   **Multi-tenant Security**: Setiap pengguna mempunyai ruang storan dan pangkalan data yang diasingkan secara selamat (Bouncer Protection).
+*   **Custom Branding**: Pengguna boleh memuat naik logo syarikat dan nama syarikat sendiri untuk paparan header.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🛠️ Tech Stack
+*   **Framework**: Laravel 11 (PHP 8.2+)
+*   **Frontend**: Tailwind CSS & Alpine.js
+*   **Database**: MySQL / PostgreSQL
+*   **Authentication**: Laravel Breeze (Customized UI)
+*   **Storage**: Amazon S3 / Local Storage (untuk logo syarikat)
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🚀 Pemasangan (Local Development)
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+1.  **Clone repository ini:**
+    ```bash
+    git clone [https://github.com/Bukhhh/internship-logbook.git](https://github.com/Bukhhh/internship-logbook.git)
+    cd internship-logbook
+    ```
 
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
-
-```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+2.  **Install dependencies:**
+    ```bash
+    composer install
+    npm install
+    
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+3.  **Setup Environment:**
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
 
-## Contributing
+4.  **Configure Database:**
+    Kemaskini maklumat `DB_DATABASE`, `DB_USERNAME`, dan `DB_PASSWORD` di dalam fail `.env`.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+5.  **Migration & Build:**
+    ```bash
+    php artisan migrate
+    npm run build
+    ```
 
-## Code of Conduct
+6.  **Jalankan server:**
+    ```bash
+    php artisan serve
+    ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 📈 Perancangan Masa Hadapan (Roadmap)
+*   [ ] **AI Integration**: Menggunakan **Random Forest / Ensemble Classifier** untuk mengklasifikasikan jenis tugasan secara automatik.
+*   [ ] **RAG Implementation**: Mengintegrasikan *Retrieval-Augmented Generation* untuk menjawab soalan berkaitan polisi internship berdasarkan dokumen PDF.
+*   [ ] **Offline Support**: Membina versi PWA untuk penggunaan tanpa internet.
 
-## Security Vulnerabilities
+## 👤 Penulis
+**Mohamad Bukhari**  
+*Final Year Computer Science Student at UiTM Tapah*  
+*Technical Intern at Hypepresso Insight Sdn Bhd*
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
+*Projek ini dibangunkan sebagai sebahagian daripada portfolio pembangunan aplikasi web moden.*
+```
 
-## License
+Dah siap! Lepas kau save, jangan lupa buat:
+1. `git add README.md`
+2. `git commit -m "Add professional README"`
+3. `git push origin main`
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Sekarang repo GitHub kau nampak macam senior dev punya repo! Ada apa-apa lagi kau nak aku tambah?
